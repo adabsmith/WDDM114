@@ -1,10 +1,13 @@
+/* importing fonts from google fonts using API*/
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+/* Styling the entire page content*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Changa', sans-serif;
 }
+/* Styling the page body*/
 body{
     min-height: 100vh;
     display: flex;
@@ -12,6 +15,7 @@ body{
     justify-content: center;
     background: #f0e1e1;
 }
+/* Styling the Form section*/
 .container{
     width: 300px;
     height: auto;
@@ -38,6 +42,7 @@ p.important{
     align-items: center;
     padding-top: 22px;
 }
+/* Styling the Inputs*/
 .inputField{
     width: 100%;
     height: auto;
@@ -61,6 +66,7 @@ p.important{
     outline: 1.5px solid #66b900;
     outline-offset: 2px;
 }
+/* Styling the button*/
 form button{
     margin-top: 25px;
     width: 92%;
