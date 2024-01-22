@@ -5,3 +5,36 @@
     box-sizing: border-box;
     font-family: 'Changa', sans-serif;
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0e1e1;
+}
+.container{
+    width: 300px;
+    height: auto;
+    padding: 40px 30px;
+    background-color: rgb(237, 233, 233);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+h4{
+    font-size: 23px;
+    color: #121212;
+}
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 22px;
+}
+.inputField{
+
+}
